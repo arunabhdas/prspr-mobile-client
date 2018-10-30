@@ -21,11 +21,11 @@
       "**/*"
     ],
     "ios": {
-      "bundleIdentifier": "com.appliaison.mobile.ios.prspr",
+      "bundleIdentifier": "com.appliaison.ios.prspr",
       "supportsTablet": true
     },
     "android": {
-      "package": "com.appliaison.mobile.android.prspr"
+      "package": "com.appliaison.android.prspr"
     }
   }
 }
