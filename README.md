@@ -1,5 +1,6 @@
 # prspr-mobile-client
 
+//--------------------------------------------------------------------------------------------------------------------------
 ## Expo Publish
 
 ==> cd prspr
@@ -7,6 +8,7 @@
 ==> expo publish
 
 
+//--------------------------------------------------------------------------------------------------------------------------
 ## Expo Build
 expo build:android 
 
@@ -14,6 +16,7 @@ or
 
 expo build:ios
 
+//--------------------------------------------------------------------------------------------------------------------------
 ## Steps
 
 https://github.com/react-community/create-react-native-app
@@ -36,3 +39,15 @@ Like npm start, but also attempts to open your app in the iOS Simulator if you'r
 
 ==> npm run android
 xxxxxxxxxxxxxxxxxxxxxxxxxxxDON'T DO THIS xxxxxxxxxxxxxxxxxx USE npm start INSTEAD
+
+//--------------------------------------------------------------------------------------------------------------------------
+- Make the following directory structure
+
+mkdir src
+mkdir src/components
+mkdir src/components/screens
+mkdir src/components/presentation
+mkdir src/components/container
+
+
+//--------------------------------------------------------------------------------------------------------------------------
