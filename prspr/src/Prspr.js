@@ -1,15 +1,15 @@
-import React, { Component } from 'react'
-import { View, Text, Stylesheet, Image } from 'react-native'
+import React, { Component } from 'react';
+import { View, Text, Stylesheet, Image } from 'react-native';
 
 class Prspr extends Component {
 
     render() {
-        return {
+        return (
             <View>
-            
+                <Text>Welcome to Prspr</Text> 
             </View>
-        }
+        );
     }
 }
 
-export default Component
+export default Prspr
