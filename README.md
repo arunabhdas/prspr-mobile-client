@@ -20,6 +20,13 @@ https://github.com/react-community/create-react-native-app
 
 ==> npm install -g expo-cli
 ==> expo init prspr
+
+==> expo init prspr
+There is a new version of expo-cli available (2.2.5).
+You are currently using expo-cli 2.2.4
+Run `npm install -g expo-cli` to get the latest version
+? Choose a template: blank
+
 ==> cd prspr
 ==> npm start
 

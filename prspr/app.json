@@ -1,16 +1,16 @@
 {
   "expo": {
     "name": "prspr",
-    "description": "A very interesting project.",
+    "description": "This project is really great.",
     "slug": "prspr",
     "privacy": "public",
     "sdkVersion": "30.0.0",
     "platforms": ["ios", "android"],
-    "version": "1.0.1",
+    "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/images/icon.png",
+    "icon": "./assets/icon.png",
     "splash": {
-      "image": "./assets/images/splash.png",
+      "image": "./assets/splash.png",
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
@@ -21,11 +21,7 @@
       "**/*"
     ],
     "ios": {
-      "bundleIdentifier": "com.appliaison.ios.prspr",
       "supportsTablet": true
-    },
-    "android": {
-      "package": "com.appliaison.android.prspr"
     }
   }
 }
