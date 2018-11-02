@@ -7,6 +7,12 @@ class Prspr extends Component {
         return (
             <View>
                 <Text>Welcome to Prspr</Text> 
+                <Image 
+                    style={{ width: 100, height: 100}}
+                    source={{
+                        uri:"https://cdn-images-1.medium.com/max/800/1*NvV8YbFKCH022zjqfazrRQ.jpeg"
+                    }} 
+                />
             </View>
         );
     }
