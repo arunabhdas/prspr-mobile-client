@@ -5,10 +5,10 @@ class Prspr extends Component {
 
     render() {
         return (
-            <View>
-                <Text>Welcome to Prspr</Text> 
+            <View style={{ flex:1, width: 100 + "%", height: 100 + "%"}}>
+                <Text>Welcome to PrsprX</Text> 
                 <Image 
-                    style={{ width: 100, height: 100}}
+                    style={{ width: 100 + "%", height: 100 + "%"}}
                     source={{
                         uri:"https://cdn-images-1.medium.com/max/800/1*NvV8YbFKCH022zjqfazrRQ.jpeg"
                     }} 
