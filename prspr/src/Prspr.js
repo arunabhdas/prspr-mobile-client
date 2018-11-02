@@ -6,7 +6,7 @@ class Prspr extends Component {
     render() {
         return (
             <View style={{ flex:1, width: 100 + "%", height: 100 + "%"}}>
-                <Text>Welcome to PrsprX</Text> 
+                <View style={{ width: 100 + "100%", height: 75}}/>
                 <Image 
                     style={{ width: 100 + "%", height: 100 + "%"}}
                     source={{
