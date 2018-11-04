@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { View, Text, Stylesheet, Image } from 'react-native';
+import { View, Text, StyleSheet, Image } from 'react-native';
 
 class Prspr extends Component {
 
@@ -21,8 +21,20 @@ class Prspr extends Component {
 const styles = StyleSheet.create({
     tempNav: {
         width: 100 + "100%", 
-        height: 75
+        height: 75,
+        marginTop: 20,
+        backgroundColor: "rgb(250,250,250)",
+        borderBottomColor: "rgb(233,233,233)",
+        borderBottomWidth: StyleSheet.hairlineWidth,
+        justifyContent: "center",
+        alignItems: "center"
+    },
+    userBar: {
+        width: 100 + "%",
+        
     }
-})
+}),
+
+
 
 export default Prspr
